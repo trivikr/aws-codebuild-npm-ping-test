@@ -8,7 +8,8 @@
   "devDependencies": {
     "@types/node": "16",
     "aws-cdk": "2.27.0",
-    "ts-node": "10.8.1",
+    "esbuild": "0.14.43",
+    "esbuild-runner": "2.2.1",
     "typescript": "4.7.3"
   },
   "dependencies": {
