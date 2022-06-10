@@ -6,7 +6,7 @@ export class CodeBuildNpmPingTest extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-    new codebuild.Project(this, "MyProject", {
+    new codebuild.Project(this, "CodeBuildNpmPingTest", {
       buildSpec: codebuild.BuildSpec.fromObject({
         version: "0.2",
         phases: {
