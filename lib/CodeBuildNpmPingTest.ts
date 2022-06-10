@@ -13,6 +13,9 @@ export class CodeBuildNpmPingTest extends Stack {
     });
 
     new codebuild.Project(this, "CodeBuildNpmPingTest", {
+      environment: {
+        buildImage: codebuild.LinuxBuildImage.STANDARD_5_0,
+      },
       buildSpec: codebuild.BuildSpec.fromObject({
         version: "0.2",
         phases: {
