@@ -114,13 +114,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:2.6.0":
-  version: 2.6.0
-  resolution: "@types/prettier@npm:2.6.0"
-  checksum: 946f1f82ce6f31664e023a5d65931c31b7d677b454f528f67dce851d72e7fcfe713076f4251b16c3646eecf1545f5f5b909b4962966341ed9ddf5b80113b3674
-  languageName: node
-  linkType: hard
-
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -250,7 +243,6 @@ __metadata:
   resolution: "aws-codebuild-npm-ping-test@workspace:."
   dependencies:
     "@types/node": 10.17.27
-    "@types/prettier": 2.6.0
     aws-cdk: 2.27.0
     aws-cdk-lib: 2.27.0
     constructs: ^10.0.0
