@@ -15,9 +15,9 @@
     "@types/jest": "^27.5.0",
     "@types/node": "10.17.27",
     "@types/prettier": "2.6.0",
+    "aws-cdk": "2.27.0",
     "jest": "^27.5.1",
     "ts-jest": "^27.1.4",
-    "aws-cdk": "2.27.0",
     "ts-node": "^10.7.0",
     "typescript": "~3.9.7"
   },
@@ -41,5 +41,6 @@
   "bugs": {
     "url": "https://github.com/trivikr/aws-codebuild-npm-ping-test/issues"
   },
-  "homepage": "https://github.com/trivikr/aws-codebuild-npm-ping-test#readme"
+  "homepage": "https://github.com/trivikr/aws-codebuild-npm-ping-test#readme",
+  "packageManager": "yarn@3.2.1"
 }
