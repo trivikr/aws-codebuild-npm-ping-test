@@ -2,9 +2,6 @@
   "name": "aws-codebuild-npm-ping-test",
   "version": "0.0.1",
   "description": "Tests npm ping on AWS CodeBuild",
-  "bin": {
-    "temp": "bin/temp.js"
-  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",

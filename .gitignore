@@ -117,7 +117,5 @@ cdk.out
 !.yarn/versions
 
 # Transpiled files
-bin/**/*.js
-bin/**/*.d.ts
 lib/**/*.js
 lib/**/*.d.ts
