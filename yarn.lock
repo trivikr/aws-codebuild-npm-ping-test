@@ -121,28 +121,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-cdk-lib@npm:2.27.0":
-  version: 2.27.0
-  resolution: "aws-cdk-lib@npm:2.27.0"
+"aws-cdk-lib@npm:2.50.0":
+  version: 2.50.0
+  resolution: "aws-cdk-lib@npm:2.50.0"
   dependencies:
     "@balena/dockerignore": ^1.0.2
     case: 1.6.3
     fs-extra: ^9.1.0
     ignore: ^5.2.0
-    jsonschema: ^1.4.0
+    jsonschema: ^1.4.1
     minimatch: ^3.1.2
     punycode: ^2.1.1
-    semver: ^7.3.7
+    semver: ^7.3.8
     yaml: 1.10.2
   peerDependencies:
     constructs: ^10.0.0
-  checksum: dc4de6e14078d84171e40c24e3c81ff9def68e5c807ce30218206b0ffd32deea8ce9e1acc52a0c8d243e0805aba61b5bf1c914af9fa7009a6ddee106758f377f
+  checksum: 81a5734399d0577f2e9cc74e9cc6c182f9630ebf522b8f3b40c2463f8e956df39ec24bc9c3a23a38d4d50225799f39d6ddbabd7eb3f22ad907eb0c582816d1bb
   languageName: node
   linkType: hard
 
-"aws-cdk@npm:2.27.0":
-  version: 2.27.0
-  resolution: "aws-cdk@npm:2.27.0"
+"aws-cdk@npm:2.50.0":
+  version: 2.50.0
+  resolution: "aws-cdk@npm:2.50.0"
   dependencies:
     fsevents: 2.3.2
   dependenciesMeta:
@@ -150,7 +150,7 @@ __metadata:
       optional: true
   bin:
     cdk: bin/cdk
-  checksum: aea9200abaa1049316c6b5aee0ff9d2de811acc284c06d47d96891af6b9a2377c7b8f557e2ff8949fbaf157a427934988a3c2641edc07ba0ed9cc3b1e487d5b3
+  checksum: 17351804dfc2709c08e2aed9da3692ca96438ff0e54a29ebab51fc849f29e6830b52245749cae274b4869be3e2cb4f37f79220313beb5cdce649df2b02b2374e
   languageName: node
   linkType: hard
 
@@ -159,9 +159,9 @@ __metadata:
   resolution: "aws-codebuild-npm-ping-test@workspace:."
   dependencies:
     "@types/node": 16
-    aws-cdk: 2.27.0
-    aws-cdk-lib: 2.27.0
-    constructs: 10.1.34
+    aws-cdk: 2.50.0
+    aws-cdk-lib: 2.50.0
+    constructs: 10.1.146
     esbuild: 0.14.43
     esbuild-runner: 2.2.1
     typescript: 4.7.3
@@ -271,10 +271,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"constructs@npm:10.1.34":
-  version: 10.1.34
-  resolution: "constructs@npm:10.1.34"
-  checksum: 6da995ec7c208efb3a00aa54f43b84950ab5cc2f483a89f5d026d4016c49d067ea41a208b2f74c91ee6afdcb8424cd7d6aacf49c41f58471def223b3f7a672bd
+"constructs@npm:10.1.146":
+  version: 10.1.146
+  resolution: "constructs@npm:10.1.146"
+  checksum: e5ea1671dd2098c1afc60529cb5d5ea5d966f594761835e2320208e956683f2098ff726835cff71a73faf3b598f8fc46e9c99c1a9974a024dc1203a3613e4b70
   languageName: node
   linkType: hard
 
@@ -795,7 +795,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonschema@npm:^1.4.0":
+"jsonschema@npm:^1.4.1":
   version: 1.4.1
   resolution: "jsonschema@npm:1.4.1"
   checksum: 1ef02a6cd9bc32241ec86bbf1300bdbc3b5f2d8df6eb795517cf7d1cd9909e7beba1e54fdf73990fd66be98a182bda9add9607296b0cb00b1348212988e424b2
@@ -1095,7 +1095,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.3.7":
+"semver@npm:^7.3.5":
   version: 7.3.7
   resolution: "semver@npm:7.3.7"
   dependencies:
@@ -1103,6 +1103,17 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 2fa3e877568cd6ce769c75c211beaed1f9fce80b28338cadd9d0b6c40f2e2862bafd62c19a6cff42f3d54292b7c623277bcab8816a2b5521cf15210d43e75232
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.3.8":
+  version: 7.3.8
+  resolution: "semver@npm:7.3.8"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: ba9c7cbbf2b7884696523450a61fee1a09930d888b7a8d7579025ad93d459b2d1949ee5bbfeb188b2be5f4ac163544c5e98491ad6152df34154feebc2cc337c1
   languageName: node
   linkType: hard
 
@@ -1236,7 +1247,7 @@ __metadata:
 
 "typescript@patch:typescript@4.7.3#~builtin<compat/typescript>":
   version: 4.7.3
-  resolution: "typescript@patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=7ad353"
+  resolution: "typescript@patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
