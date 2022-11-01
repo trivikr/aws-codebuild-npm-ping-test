@@ -13,9 +13,9 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 - Verify that the build succeeds, and the following output is displayed:
 
   ```console
-  node version: v14.19.2
+  node version: v16.15.1
 
-  npm version: 6.14.17
+  npm version: 8.11.0
 
   { code: 0, signal: null }
   ```
