@@ -24,5 +24,10 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ### Oher userful commands
 
-- `yarn cdk diff` compare deployed stack with current state
-- `yarn cdk synth` emits the synthesized CloudFormation template
+- `yarn cdk diff` compare deployed stack with current state.
+- `yarn cdk synth` emits the synthesized CloudFormation template.
+- You can also run the builds using AWS CLI. For example:
+
+  ```console
+  aws codebuild start-build --project-name <CodeBuildNpmPingTestName>
+  ```
