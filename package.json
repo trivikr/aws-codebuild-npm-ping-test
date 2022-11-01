@@ -32,5 +32,5 @@
     "url": "https://github.com/trivikr/aws-codebuild-npm-ping-test/issues"
   },
   "homepage": "https://github.com/trivikr/aws-codebuild-npm-ping-test#readme",
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.4"
 }
